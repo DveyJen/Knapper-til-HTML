@@ -1,42 +1,42 @@
-.btn-default {
-  color: #d800ff;
-  text-decoration: none;
+*{
+
+}
+div {
+  margin-bottom: 100px;
+}
+.btn {
   font-size: 32px;
+  padding: 19px 41px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
+.btn-default{
+  color: #d800ff;
+}
 .btn-default:hover {
   color: #82029a;
 }
 
 .btn-square {
-  font-size: 32px;
-  text-decoration: none;
-  color: white;
   background-color: #d82bfc;
-  padding: 0.59em 1.28em;
 }
 .btn-square:hover {
   background-color: #82029a;
 }
 
 .btn-round {
-  font-size: 32px;
-  text-decoration: none;
-  color: white;
   background-color: #d82bfc;
-  padding: 0.59em 1.28em;
-  border-radius: 2em;
+  border-radius: 20px;
 }
 .btn-round:hover {
   background-color: #82029a;
 }
+
 .btn-shadow {
-  font-size: 32px;
-  text-decoration: none;
-  color: white;
   background-color: #d82bfc;
-  padding: 0.59em 1.28em;
-  border-radius: 2em;
+  border-radius: 20px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 .btn-shadow:hover {
@@ -45,15 +45,8 @@
 }
 
 .btn-reverse {
-    font-size: 32px;
-    text-decoration: none;
-    color: white;
-    background-color: #d82bfc;
-    padding: 0.59em 1.28em;
-    border-radius: 2em;
-    background: rgb(117,12,139);
+    border-radius: 20px;
 background: linear-gradient(0deg, rgba(117,12,139,1) 0%, rgba(216,43,252,1) 100%);
   }
   .btn-reverse:hover {
-    background: rgb(216,43,252);
 background: linear-gradient(0deg, rgba(216,43,252,1) 0%, rgba(117,12,139,1) 100%);
