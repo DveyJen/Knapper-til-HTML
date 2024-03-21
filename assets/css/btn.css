@@ -1,5 +1,4 @@
-*{
-
+* {
 }
 div {
   margin-bottom: 100px;
@@ -12,7 +11,7 @@ div {
   display: inline-block;
 }
 
-.btn-default{
+.btn-default {
   color: #d800ff;
 }
 .btn-default:hover {
@@ -45,8 +44,17 @@ div {
 }
 
 .btn-reverse {
-    border-radius: 20px;
-background: linear-gradient(0deg, rgba(117,12,139,1) 0%, rgba(216,43,252,1) 100%);
-  }
-  .btn-reverse:hover {
-background: linear-gradient(0deg, rgba(216,43,252,1) 0%, rgba(117,12,139,1) 100%);
+  border-radius: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(117, 12, 139, 1) 0%,
+    rgba(216, 43, 252, 1) 100%
+  );
+}
+.btn-reverse:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(216, 43, 252, 1) 0%,
+    rgba(117, 12, 139, 1) 100%
+  );
+}
